@@ -20,7 +20,7 @@ const router=express.Router();
 router.put("/:id",verifyUser ,updateUser);
 
 //delete
-router.delete("/:id",verifyUser,deleteUser);
+router.delete("/:id",verifyUser,deleteUser); 
 
 //get
 router.get("/:id",verifyUser, getUser);
